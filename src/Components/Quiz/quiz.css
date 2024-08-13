@@ -1,0 +1,60 @@
+.quiz{
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #edf3e7;
+}
+h1{
+    text-align: center;
+    color: #1b4965;
+}
+h2{
+    text-align: center;
+    color: #1b4965;
+}
+p{
+    text-align: center;
+    font-size: larger;
+}
+.quiz ul li{
+    display: flex;
+    align-items: center;
+    border: 1px solid #472147;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.quix ul li :hover{
+    background-color: #472147;
+    color: #cccccc;
+}
+.quiz button{
+    padding: 10px;
+    border: 1px solid #472147;
+    border-radius: 5px; 
+    background-color: #472147;
+    color: #cccccc;
+    cursor: pointer;
+}
+
+.quiz button:hover{
+    background-color: #472147;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #1b4965;
+}
+
+/* .correct{
+    background-color: green;
+}
+.incorrect {
+    background-color: red;
+} */
+.defaultcolor{
+    background-color: rgb(245, 245, 245);
+}
